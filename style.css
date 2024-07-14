@@ -1,0 +1,37 @@
+.maincontent {
+  border: 2px solid black;
+  padding: 20px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.container {
+  border: 2px solid brown;
+  height: 400px;
+  width: 200px;
+}
+
+.container1 > h1 {
+  position: fixed;
+  background-color: green;
+  width: 100px;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  height: 80px;
+}
+.container2 > h1 {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  width: 100px;
+  margin-left: 10px;
+  height: 80px;
+}
